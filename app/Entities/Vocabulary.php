@@ -20,10 +20,20 @@ class Vocabulary extends Model
      * @var array
      */
     protected $fillable = [
-        'level',
-        'content',
-        'traditional_meaning',
-        'simplified_meaning',
+        'level_group',
+        'part_of_speech',
+        'word',
+        'KK_phonemic_transcription',
+        'DJ_phonemic_transcription',
+        'english_meaning',
+        'traditional_chinese_meaning',
+        'simplified_chinese_meaning',
+        'english_sentence',
+        'traditional_chinese_sentence',
+        'simplified_chinese_sentence',
+        'antonym',
+        'synonym',
+        'extension',
     ];
 
     /**

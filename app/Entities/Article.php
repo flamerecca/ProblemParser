@@ -20,7 +20,7 @@ class Article extends Model
      * @var array
      */
     protected $fillable = [
-        'level',
+        'level_group',
         'url',
         'content'
     ];
